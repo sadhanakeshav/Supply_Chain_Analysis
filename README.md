@@ -1,74 +1,31 @@
-# Beauty Supply Chain Dynamics
+# ♻️ Beauty Supply Chain Dynamics
+📦 Where data meets delivery — optimize every link in your supply chain.</strong></p>
+Built to decode the complexity of modern logistics, this Power BI dashboard reveals the story behind the numbers.
+From pinpointing costly shipping routes to spotlighting top-performing suppliers, it empowers smarter, faster decisions at every stage of the supply chain.
 
+## 📊 Project Overview
+- Visualized key supply chain data for the beauty industry.
+- Identified bottlenecks in lead times and defect rates.
+- Analyzed revenue and shipping performance by region.
+- Delivered an interactive dashboard for strategic decisions.
 
+## 🔑 Key Insights
 
-## Problem Statement
+- Revenue Highlights  
+Mumbai generates the highest revenue, driven largely by Supplier 1’s strong performance.
 
-Effective supply chain management is crucial for optimizing operations, reducing costs, and enhancing customer satisfaction. This project aims to analyze supply chain data to identify bottlenecks, streamline processes, and improve overall efficiency. By leveraging Power BI, the goal is to create a comprehensive dashboard that provides actionable insights to drive strategic decision-making in supply chain management.
+- Manufacturing & Defects  
+Bangalore incurs the highest manufacturing costs, while Supplier 5 has notably high defect rates and longer lead times.
 
-### Steps followed 
+- Transportation Efficiency  
+Rail emerges as the most profitable shipping mode, whereas Kolkata stands out as the costliest shipping location.
 
-- Step 1 : Import the supply chain dataset into Power BI Desktop from a CSV file.
-- Step 2 : Data Cleaning and Transformation. Transformed product category names to ensure consistency (e.g., capitalizing the first letter).
+- Order and Carrier Analysis  
+Route B processes the highest order volumes, but Carrier A experiences the highest defect rates impacting delivery quality.
 
-- Step 3 : Created new measures to calculate average defect rates, average lead time and procurement cost.
-           
-           avg_defect_rates = AVERAGE(supply_chain_data[Defect rates])
-           avg lead time = ROUND(AVERAGE(supply_chain_data[Lead time]),0)& " days"
-           Procurement cost = SUM(supply_chain_data[Manufacturing costs]) + SUM(supply_chain_data[Shipping costs])
-- Step 4 : Developed visualizations and organized them into three sections: Revenue, Production and Supply, and Shipping. 
-- Step 5 : Combined visualizations into a cohesive and interactive dashboard.
+## ❓ Why This Project Matters
+In today’s competitive beauty industry, supply chain efficiency directly impacts customer satisfaction and profitability. This project highlights critical bottlenecks and performance drivers, enabling businesses to optimize costs, improve product quality, and accelerate delivery. By transforming complex data into clear insights, it empowers decision-makers to stay agile and ahead in a rapidly evolving market.
 
- 
- 
-
-# Snapshot of Dashboard 
-
-![2024-07-21_21h30_08](https://github.com/user-attachments/assets/30c47eca-61a3-4b75-8fd4-58d5ea4e8248)
-
-![2024-07-21_21h30_52](https://github.com/user-attachments/assets/f01d67d8-0781-4fca-ae23-1696b70c600f)
-
-![2024-07-21_21h31_19](https://github.com/user-attachments/assets/10213d82-d4b7-48c3-a8a6-80b0acd76b9e)
-
-![2024-07-21_21h31_42](https://github.com/user-attachments/assets/68141741-4816-4028-99cb-fe3e7dc226f6)
-
-# Insights
-
-Following inferences can be drawn from the dashboard;
-
-### [1] Total Revenue and Sales
-
-   Total revenue generated: 577.60k
-
-   Total products sold: 46k
-           
-### [2] Lead Time and Defect Rates
-
-Average lead time: 17 days
-
-Average defect rate: 2.28%
-  
- 
-
- ### [3] Revenue Breakdown
- 
-Highest revenue generated in Mumbai.
-
-Supplier 1 contributes the most to revenue.
-
-Rail is the most profitable transportation mode.
- 
- ### [4] Production and Supply Analysis
- 
- Bangalore incurs the highest manufacturing costs, while Mumbai has the lowest.
-
- Supplier 1 also has the highest order quantities.
-
- Supplier 5 has the highest defect rates and manufacturing lead time.
-### [5] Shipping Analysis
-
-Kolkata is the costliest location for shipping.
-
-Route B handles the highest order quantities.
-
-Carrier A has the highest defect rates.
+---
+<p align="center"> 💡 POWER BI: TURNING COMPLEX DATA INTO CLEAR SUPPLY CHAIN ACTION
+</p>
